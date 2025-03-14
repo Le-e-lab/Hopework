@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Report</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js -->
+</head>
+<body>
+    <div class="dashboard-container">
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header>
+                <h1>My Impact Report</h1>
+            </header>
+
+            <section class="impact-container">
+                <div class="stats-card">
+                    <h3>Total Hours Volunteered</h3>
+                    <p><span id="total-hours">25</span> Hours</p>
+                </div>
+
+                <div class="stats-card">
+                    <h3>Events Participated</h3>
+                    <p><span id="total-events">3</span> Events</p>
+                </div>
+            </section>
+
+            <section class="charts-container">
+                <div class="chart-card">
+                    <h3>Volunteer Hours by Month</h3>
+                    <canvas id="hoursChart"></canvas>
+                </div>
+
+                <div class="chart-card">
+                    <h3>Event Participation Breakdown</h3>
+                    <canvas id="eventsChart"></canvas>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>
